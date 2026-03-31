@@ -34,6 +34,15 @@
                 <a href="#about" class="nav__link">Acerca de</a>
               </li>
               <li class="nav__item">
+                <!-- BUG #1: este enlace apunta a la seccion equivocada, deberia ser #hero -->
+                <a href="#hero" class="nav__link">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <!-- BUG #2: este enlace apunta a la seccion equivocada, deberia ser #about -->
+                <a href="#about" class="nav__link">Acerca de</a>
+              </li>
+              <li class="nav__item">
+                <!-- BUG #3: este enlace apunta a la seccion equivocada, deberia ser #team -->
                 <a href="#team" class="nav__link">Equipo</a>
               </li>
             </ul>
@@ -124,21 +133,29 @@
                   <img
                     src="https://w0.peakpx.com/wallpaper/862/205/HD-wallpaper-bts-v-bts-bts-v.jpg"
                     alt="Alanis Espinoza"
+                    src="https://www.patasencasa.com/sites/default/files/styles/article_detail_desktop/public/2023-08/gato-gris.jpg.webp?itok=wPQE9NB_"
+                    alt="Adriana Alvarado"
                     class="team-card__photo"
                   />
                 </div>
                 <div class="team-card__content">
                   <h3 class="team-card__name">Alanis Espinoza</h3>
                   <p class="team-card__role">Estudiante / Developer</p>
+                  <!-- Aquí tu nombre completo -->
+                  <h3 class="team-card__name">Adriana Celeste Alvarado León</h3>
+                  <!-- Aquí tu especialidad o rol -->
+                  <p class="team-card__role">Backend Developer</p>
                   <div class="team-card__social">
                     <a
                       href="https://github.com/alanisespinoza-jpg"
+                      href="https://github.com/adrianaalvarad"
                       class="team-card__social-link team-card__social-link--github"
                     >
                       <i class="fab fa-github"></i>
                     </a>
                     <a
                       href="https://www.linkedin.com/in/alanis-marie-espinoza-feliciano-9445942b0/"
+                      href="https://www.linkedin.com/in/adriana-alvarado-leon/"
                       class="team-card__social-link team-card__social-link--linkedin"
                     >
                       <i class="fab fa-linkedin"></i>
